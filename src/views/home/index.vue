@@ -46,7 +46,7 @@ import { useRouter } from "vue-router";
 const router = useRouter();
 const linkTo = (params) => {
   if (params === "github") {
-    window.open("https://github.com/coderyjw/v-ui", "_blank");
+    window.open("https://github.com/oyjt/vite-ui", "_blank");
   } else if (params === "getStart") {
     router.push({
       path: "/doc",
